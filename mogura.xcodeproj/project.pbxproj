@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CFD9461BE4966000AFD233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CFD9451BE4966000AFD233 /* AppDelegate.swift */; };
+		05CFD9481BE4966000AFD233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CFD9471BE4966000AFD233 /* ViewController.swift */; };
+		05CFD94B1BE4966000AFD233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CFD9491BE4966000AFD233 /* Main.storyboard */; };
+		05CFD94D1BE4966000AFD233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CFD94C1BE4966000AFD233 /* Assets.xcassets */; };
+		05CFD9501BE4966000AFD233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CFD94E1BE4966000AFD233 /* LaunchScreen.storyboard */; };
+		05CFD95B1BE4966000AFD233 /* moguraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CFD95A1BE4966000AFD233 /* moguraTests.swift */; };
+		05CFD9661BE4966000AFD233 /* moguraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CFD9651BE4966000AFD233 /* moguraUITests.swift */; };
+		05CFD9741BE49C7100AFD233 /* b375_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05CFD9731BE49C7100AFD233 /* b375_1.jpg */; };
+		05CFD9751BE4A3FA00AFD233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CFD9471BE4966000AFD233 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05CFD9571BE4966000AFD233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CFD93A1BE4966000AFD233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CFD9411BE4966000AFD233;
+			remoteInfo = mogura;
+		};
+		05CFD9621BE4966000AFD233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CFD93A1BE4966000AFD233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CFD9411BE4966000AFD233;
+			remoteInfo = mogura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CFD9421BE4966000AFD233 /* mogura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mogura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CFD9451BE4966000AFD233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05CFD9471BE4966000AFD233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05CFD94A1BE4966000AFD233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05CFD94C1BE4966000AFD233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CFD94F1BE4966000AFD233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05CFD9511BE4966000AFD233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CFD9561BE4966000AFD233 /* moguraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moguraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CFD95A1BE4966000AFD233 /* moguraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moguraTests.swift; sourceTree = "<group>"; };
+		05CFD95C1BE4966000AFD233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CFD9611BE4966000AFD233 /* moguraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moguraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CFD9651BE4966000AFD233 /* moguraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moguraUITests.swift; sourceTree = "<group>"; };
+		05CFD9671BE4966000AFD233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CFD9731BE49C7100AFD233 /* b375_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b375_1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CFD93F1BE4966000AFD233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD9531BE4966000AFD233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD95E1BE4966000AFD233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CFD9391BE4966000AFD233 = {
+			isa = PBXGroup;
+			children = (
+				05CFD9441BE4966000AFD233 /* mogura */,
+				05CFD9591BE4966000AFD233 /* moguraTests */,
+				05CFD9641BE4966000AFD233 /* moguraUITests */,
+				05CFD9431BE4966000AFD233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CFD9431BE4966000AFD233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CFD9421BE4966000AFD233 /* mogura.app */,
+				05CFD9561BE4966000AFD233 /* moguraTests.xctest */,
+				05CFD9611BE4966000AFD233 /* moguraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CFD9441BE4966000AFD233 /* mogura */ = {
+			isa = PBXGroup;
+			children = (
+				05CFD9731BE49C7100AFD233 /* b375_1.jpg */,
+				05CFD9451BE4966000AFD233 /* AppDelegate.swift */,
+				05CFD9471BE4966000AFD233 /* ViewController.swift */,
+				05CFD9491BE4966000AFD233 /* Main.storyboard */,
+				05CFD94C1BE4966000AFD233 /* Assets.xcassets */,
+				05CFD94E1BE4966000AFD233 /* LaunchScreen.storyboard */,
+				05CFD9511BE4966000AFD233 /* Info.plist */,
+			);
+			path = mogura;
+			sourceTree = "<group>";
+		};
+		05CFD9591BE4966000AFD233 /* moguraTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CFD95A1BE4966000AFD233 /* moguraTests.swift */,
+				05CFD95C1BE4966000AFD233 /* Info.plist */,
+			);
+			path = moguraTests;
+			sourceTree = "<group>";
+		};
+		05CFD9641BE4966000AFD233 /* moguraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05CFD9651BE4966000AFD233 /* moguraUITests.swift */,
+				05CFD9671BE4966000AFD233 /* Info.plist */,
+			);
+			path = moguraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CFD9411BE4966000AFD233 /* mogura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CFD96A1BE4966000AFD233 /* Build configuration list for PBXNativeTarget "mogura" */;
+			buildPhases = (
+				05CFD93E1BE4966000AFD233 /* Sources */,
+				05CFD93F1BE4966000AFD233 /* Frameworks */,
+				05CFD9401BE4966000AFD233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mogura;
+			productName = mogura;
+			productReference = 05CFD9421BE4966000AFD233 /* mogura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CFD9551BE4966000AFD233 /* moguraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CFD96D1BE4966000AFD233 /* Build configuration list for PBXNativeTarget "moguraTests" */;
+			buildPhases = (
+				05CFD9521BE4966000AFD233 /* Sources */,
+				05CFD9531BE4966000AFD233 /* Frameworks */,
+				05CFD9541BE4966000AFD233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CFD9581BE4966000AFD233 /* PBXTargetDependency */,
+			);
+			name = moguraTests;
+			productName = moguraTests;
+			productReference = 05CFD9561BE4966000AFD233 /* moguraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05CFD9601BE4966000AFD233 /* moguraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CFD9701BE4966000AFD233 /* Build configuration list for PBXNativeTarget "moguraUITests" */;
+			buildPhases = (
+				05CFD95D1BE4966000AFD233 /* Sources */,
+				05CFD95E1BE4966000AFD233 /* Frameworks */,
+				05CFD95F1BE4966000AFD233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CFD9631BE4966000AFD233 /* PBXTargetDependency */,
+			);
+			name = moguraUITests;
+			productName = moguraUITests;
+			productReference = 05CFD9611BE4966000AFD233 /* moguraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CFD93A1BE4966000AFD233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = IkegamiYuki;
+				TargetAttributes = {
+					05CFD9411BE4966000AFD233 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					05CFD9551BE4966000AFD233 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 05CFD9411BE4966000AFD233;
+					};
+					05CFD9601BE4966000AFD233 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 05CFD9411BE4966000AFD233;
+					};
+				};
+			};
+			buildConfigurationList = 05CFD93D1BE4966000AFD233 /* Build configuration list for PBXProject "mogura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CFD9391BE4966000AFD233;
+			productRefGroup = 05CFD9431BE4966000AFD233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CFD9411BE4966000AFD233 /* mogura */,
+				05CFD9551BE4966000AFD233 /* moguraTests */,
+				05CFD9601BE4966000AFD233 /* moguraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CFD9401BE4966000AFD233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CFD9501BE4966000AFD233 /* LaunchScreen.storyboard in Resources */,
+				05CFD94D1BE4966000AFD233 /* Assets.xcassets in Resources */,
+				05CFD9741BE49C7100AFD233 /* b375_1.jpg in Resources */,
+				05CFD94B1BE4966000AFD233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD9541BE4966000AFD233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD95F1BE4966000AFD233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CFD93E1BE4966000AFD233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CFD9481BE4966000AFD233 /* ViewController.swift in Sources */,
+				05CFD9461BE4966000AFD233 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD9521BE4966000AFD233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CFD9751BE4A3FA00AFD233 /* ViewController.swift in Sources */,
+				05CFD95B1BE4966000AFD233 /* moguraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CFD95D1BE4966000AFD233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CFD9661BE4966000AFD233 /* moguraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CFD9581BE4966000AFD233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CFD9411BE4966000AFD233 /* mogura */;
+			targetProxy = 05CFD9571BE4966000AFD233 /* PBXContainerItemProxy */;
+		};
+		05CFD9631BE4966000AFD233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CFD9411BE4966000AFD233 /* mogura */;
+			targetProxy = 05CFD9621BE4966000AFD233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05CFD9491BE4966000AFD233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CFD94A1BE4966000AFD233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05CFD94E1BE4966000AFD233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CFD94F1BE4966000AFD233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05CFD9681BE4966000AFD233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CFD9691BE4966000AFD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05CFD96B1BE4966000AFD233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mogura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.mogura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05CFD96C1BE4966000AFD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mogura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.mogura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05CFD96E1BE4966000AFD233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = moguraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.moguraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogura.app/mogura";
+			};
+			name = Debug;
+		};
+		05CFD96F1BE4966000AFD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = moguraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.moguraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogura.app/mogura";
+			};
+			name = Release;
+		};
+		05CFD9711BE4966000AFD233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = moguraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.moguraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mogura;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05CFD9721BE4966000AFD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = moguraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vajack.moguraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mogura;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CFD93D1BE4966000AFD233 /* Build configuration list for PBXProject "mogura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CFD9681BE4966000AFD233 /* Debug */,
+				05CFD9691BE4966000AFD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CFD96A1BE4966000AFD233 /* Build configuration list for PBXNativeTarget "mogura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CFD96B1BE4966000AFD233 /* Debug */,
+				05CFD96C1BE4966000AFD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CFD96D1BE4966000AFD233 /* Build configuration list for PBXNativeTarget "moguraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CFD96E1BE4966000AFD233 /* Debug */,
+				05CFD96F1BE4966000AFD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CFD9701BE4966000AFD233 /* Build configuration list for PBXNativeTarget "moguraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CFD9711BE4966000AFD233 /* Debug */,
+				05CFD9721BE4966000AFD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CFD93A1BE4966000AFD233 /* Project object */;
+}
